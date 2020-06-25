@@ -1,2 +1,21 @@
 ﻿<script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
 <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+<script>
+    (function ($) {
+        var timeout;
+        $(document).on('mousemove', function (event) {
+            if (timeout !== undefined) {
+                window.clearTimeout(timeout);
+            }
+            timeout = window.setTimeout(function () {
+                //Creas una funcion nueva para jquery
+                $(event.target).trigger('mousemoveend');
+            }, 5000); //determinas el tiempo en milisegundo aqui 5 segundos
+        });
+    }(jQuery));
+
+    $(document).on('mousemoveend', function () { //agregas la nueva funcion creada, puede ser una clase o un id
+        location.href = "Home/Index";
+        alert("No se ha detectado activada en la pagina");
+    });
+</script>

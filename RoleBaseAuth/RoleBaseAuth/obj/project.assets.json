@@ -8615,11 +8615,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\steve\\source\\repos\\RoleBaseAuth\\RoleBaseAuth\\RoleBaseAuth.csproj",
+      "projectUniqueName": "C:\\Users\\steve\\OneDrive\\Documentos\\GitHub\\LoginRole\\RoleBaseAuth\\RoleBaseAuth\\RoleBaseAuth.csproj",
       "projectName": "RoleBaseAuth",
-      "projectPath": "C:\\Users\\steve\\source\\repos\\RoleBaseAuth\\RoleBaseAuth\\RoleBaseAuth.csproj",
+      "projectPath": "C:\\Users\\steve\\OneDrive\\Documentos\\GitHub\\LoginRole\\RoleBaseAuth\\RoleBaseAuth\\RoleBaseAuth.csproj",
       "packagesPath": "C:\\Users\\steve\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\steve\\source\\repos\\RoleBaseAuth\\RoleBaseAuth\\obj\\",
+      "outputPath": "C:\\Users\\steve\\OneDrive\\Documentos\\GitHub\\LoginRole\\RoleBaseAuth\\RoleBaseAuth\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\steve\\AppData\\Roaming\\NuGet\\NuGet.Config",

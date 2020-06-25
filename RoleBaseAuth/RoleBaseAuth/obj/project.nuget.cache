@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9Ejd8xmYEFyzarpXRr3NQZGDPHoMOxCdFWfyhuE3+hj+h969liKWd/qcxVXS/hGQKVdy/NI39W5lrCdttZ15+A==",
+  "dgSpecHash": "DJ0ccGL5lNUZcnW6Rzy/sihuWZH1lWn/k0pj84dWZHIJHCdVH2P8lHbKq7RlMIGCpe6Ia1Q+ROTOFj3w4d+9xw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\steve\\source\\repos\\RoleBaseAuth\\RoleBaseAuth\\RoleBaseAuth.csproj",
+  "projectFilePath": "C:\\Users\\steve\\OneDrive\\Documentos\\GitHub\\LoginRole\\RoleBaseAuth\\RoleBaseAuth\\RoleBaseAuth.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\steve\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\3.1.5\\microsoft.aspnetcore.cryptography.internal.3.1.5.nupkg.sha512",
     "C:\\Users\\steve\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\3.1.5\\microsoft.aspnetcore.cryptography.keyderivation.3.1.5.nupkg.sha512",

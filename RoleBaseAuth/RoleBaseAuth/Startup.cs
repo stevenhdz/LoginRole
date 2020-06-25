@@ -35,6 +35,12 @@ namespace RoleBaseAuth
                 .AddEntityFrameworkStores<ApplicationDbContext>();
             services.AddControllersWithViews();
             services.AddRazorPages();
+            //sesion caducada trabajando en ella----
+            services.ConfigureApplicationCookie(options =>
+            {
+                options.ExpireTimeSpan = TimeSpan.FromSeconds(5);
+        
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
