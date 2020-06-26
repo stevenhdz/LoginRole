@@ -1,0 +1,33 @@
+﻿<Properties StartupConfiguration="{3036F6B4-8E27-4B89-A2CB-BD3EC474953A}|RoleBaseAuth">
+  <MonoDevelop.Ide.Workbench ActiveDocument="RoleBaseAuth/Views/Shared/_ValidationScriptsPartial.cshtml">
+    <Files>
+      <File FileName="RoleBaseAuth/Startup.cs" Line="41" Column="67" />
+      <File FileName="RoleBaseAuth/Views/Shared/_Layout.cshtml" Line="1" Column="1" />
+      <File FileName="RoleBaseAuth/Views/Shared/_ValidationScriptsPartial.cshtml" Line="13" Column="21" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="RoleBaseAuth" expanded="True">
+            <Node name="RoleBaseAuth" expanded="True">
+              <Node name="Dependencies" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Shared" expanded="True">
+                  <Node name="_ValidationScriptsPartial.cshtml" selected="True" />
+                </Node>
+              </Node>
+              <Node name="wwwroot" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.RoleBaseAuth PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

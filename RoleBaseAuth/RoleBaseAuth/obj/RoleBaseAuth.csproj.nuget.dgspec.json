@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\steve\\OneDrive\\Documentos\\GitHub\\LoginRole\\RoleBaseAuth\\RoleBaseAuth\\RoleBaseAuth.csproj": {}
+    "/Users/alexanderjimenez/Desktop/LoginRole/RoleBaseAuth/RoleBaseAuth/RoleBaseAuth.csproj": {}
   },
   "projects": {
-    "C:\\Users\\steve\\OneDrive\\Documentos\\GitHub\\LoginRole\\RoleBaseAuth\\RoleBaseAuth\\RoleBaseAuth.csproj": {
+    "/Users/alexanderjimenez/Desktop/LoginRole/RoleBaseAuth/RoleBaseAuth/RoleBaseAuth.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\steve\\OneDrive\\Documentos\\GitHub\\LoginRole\\RoleBaseAuth\\RoleBaseAuth\\RoleBaseAuth.csproj",
+        "projectUniqueName": "/Users/alexanderjimenez/Desktop/LoginRole/RoleBaseAuth/RoleBaseAuth/RoleBaseAuth.csproj",
         "projectName": "RoleBaseAuth",
-        "projectPath": "C:\\Users\\steve\\OneDrive\\Documentos\\GitHub\\LoginRole\\RoleBaseAuth\\RoleBaseAuth\\RoleBaseAuth.csproj",
-        "packagesPath": "C:\\Users\\steve\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\steve\\OneDrive\\Documentos\\GitHub\\LoginRole\\RoleBaseAuth\\RoleBaseAuth\\obj\\",
+        "projectPath": "/Users/alexanderjimenez/Desktop/LoginRole/RoleBaseAuth/RoleBaseAuth/RoleBaseAuth.csproj",
+        "packagesPath": "/Users/alexanderjimenez/.nuget/packages/",
+        "outputPath": "/Users/alexanderjimenez/Desktop/LoginRole/RoleBaseAuth/RoleBaseAuth/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\steve\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/alexanderjimenez/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -54,6 +52,10 @@
               "target": "Package",
               "version": "[3.1.5, )"
             },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
             "Microsoft.EntityFrameworkCore.Tools": {
               "target": "Package",
               "version": "[3.1.5, )"
@@ -81,7 +83,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.301/RuntimeIdentifierGraph.json"
         }
       }
     }

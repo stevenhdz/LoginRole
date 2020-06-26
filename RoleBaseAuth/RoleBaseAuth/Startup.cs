@@ -28,7 +28,7 @@ namespace RoleBaseAuth
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<ApplicationDbContext>(options =>
-                options.UseSqlServer(
+                options.UseSqlite(
                     Configuration.GetConnectionString("DefaultConnection")));
             services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
                 .AddRoles<IdentityRole>()
@@ -38,7 +38,9 @@ namespace RoleBaseAuth
             //sesion caducada trabajando en ella----
             services.ConfigureApplicationCookie(options =>
             {
-                options.ExpireTimeSpan = TimeSpan.FromSeconds(5);
+                options.ExpireTimeSpan = TimeSpan.FromMinutes(15);
+                options.AccessDeniedPath = "/Account/NotAuthorized";
+                options.LoginPath = "/Account/NotAuthorized";
         
             });
         }
